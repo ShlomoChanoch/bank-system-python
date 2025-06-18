@@ -30,7 +30,7 @@ The amounts must be displayed using the format $xxx.xx, for example:
 
 1500.45 = $1500.45
 
-### Challenge 2 - Optimizing the Bank System with Python Functions
+## Challenge 2 - Optimizing the Bank System with Python Functions
 
 We need to modularize our code. We will create functions for new operations.
 
@@ -39,23 +39,23 @@ We need to modularize our code. We will create functions for new operations.
 
 Changes are done on former operations as well.
 
-### Withdrawal
+## Withdrawal
 
 Receives arguments per keyword only.
 
-### Deposit
+## Deposit
 
 Receives positional arguments only.
 
-### Showing Extract
+## Showing Extract
 
 Positional only and Keyword only.
 
-### New Functions
+## New Functions
 
 We create new functions: create user and create checking account. It's possible to create more functions, like account listing.
 
-#### Create User
+### Create User
 
 The program must store users in a list.
 
@@ -66,7 +66,7 @@ User:
 * SSN (just one per user)
 * Address (street, number - district - city, state)
 
-#### Create Checking Account
+### Create Checking Account
 
 Store accounts in a list:
 
