@@ -29,3 +29,47 @@ This operation must list all deposits and withdrawals made in the account. At th
 The amounts must be displayed using the format $xxx.xx, for example:
 
 1500.45 = $1500.45
+
+### Challenge 2 - Optimizing the Bank System with Python Functions
+
+We need to modularize our code. We will create functions for new operations.
+
+* Create User (bank customer)
+* Create Checking Account (vinculating user and bank)
+
+Changes are done on former operations as well.
+
+### Withdrawal
+
+Receives arguments per keyword only.
+
+### Deposit
+
+Receives positional arguments only.
+
+### Showing Extract
+
+Positional only and Keyword only.
+
+### New Functions
+
+We create new functions: create user and create checking account. It's possible to create more functions, like account listing.
+
+#### Create User
+
+The program must store users in a list.
+
+User:
+
+* Name
+* Birthday
+* SSN (just one per user)
+* Address (street, number - district - city, state)
+
+#### Create Checking Account
+
+Store accounts in a list:
+
+* Agency (always 0001)
+* Account Number
+* User (Name and SSN)
